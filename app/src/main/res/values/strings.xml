@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="SHARED_PREF_NAME">app.bluecoral.todolist.sharedprefs</string>
+    <string name="TODO_STRINGS">todostrings</string>
+    <string name="title_activity_create_list">CreateListActivity</string>
+</resources>
