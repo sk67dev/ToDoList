@@ -15,7 +15,7 @@ class CreateToDoActivity : AppCompatActivity() {
         saveButton.setOnClickListener {
             var title = ""
             if (importantCheckBox.isChecked) {
-                title = "❗️ " + titleEditText.text.toString()
+                title = "❗️️ " + titleEditText.text.toString()
         } else {
                 title = titleEditText.text.toString()
             }
