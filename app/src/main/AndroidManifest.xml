@@ -10,7 +10,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".TodoModel.MainActivity"
+                android:name=".ListModel.MainActivity"
                 android:label="@string/app_name"
                 android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,13 +19,38 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".TodoModel.CreateToDoActivity">
+        <activity android:name=".CreateModel.CreateToDoActivity">
         </activity>
-        <activity android:name=".TodoModel.DeleteToDoActivity">
+        <activity android:name=".DeleteModel.DeleteToDoActivity">
         </activity>
         <activity
-                android:name=".ListModel.MainListActivity"
+                android:name=".TodoModel.HomeActivity"
                 android:label="@string/title_activity_create_list"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".TodoModel.WorkStudyActivity"
+                android:label="@string/title_activity_work_study"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".TodoModel.ShoppingActivity"
+                android:label="@string/title_activity_shopping"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".TodoModel.FriendsFamilyActivity"
+                android:label="@string/title_activity_friends_family"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".TodoModel.InterestsTravelActivity"
+                android:label="@string/title_activity_interests_travel"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".TodoModel.OtherActivity"
+                android:label="@string/title_activity_other"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>

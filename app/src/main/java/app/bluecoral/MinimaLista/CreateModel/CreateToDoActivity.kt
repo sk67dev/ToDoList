@@ -1,4 +1,4 @@
-package app.bluecoral.MinimaLista.TodoModel
+package app.bluecoral.MinimaLista.CreateModel
 
 import android.content.Context
 import android.support.v7.app.AppCompatActivity
@@ -15,7 +15,7 @@ class CreateToDoActivity : AppCompatActivity() {
         saveButton.setOnClickListener {
             var title = ""
             if (importantCheckBox.isChecked) {
-                title = "❗️️ " + titleEditText.text.toString()
+                title = "❗️️️️ " + titleEditText.text.toString()
         } else {
                 title = titleEditText.text.toString()
             }

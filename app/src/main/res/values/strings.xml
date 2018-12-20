@@ -4,4 +4,9 @@
     <string name="SHARED_PREF_NAME">app.bluecoral.todolist.sharedprefs</string>
     <string name="TODO_STRINGS">todostrings</string>
     <string name="title_activity_create_list">CreateListActivity</string>
+    <string name="title_activity_work_study">WorkStudyActivity</string>
+    <string name="title_activity_shopping">ShoppingActivity</string>
+    <string name="title_activity_friends_family">FriendsFamilyActivity</string>
+    <string name="title_activity_interests_travel">InterestsTravelActivity</string>
+    <string name="title_activity_other">OtherActivity</string>
 </resources>

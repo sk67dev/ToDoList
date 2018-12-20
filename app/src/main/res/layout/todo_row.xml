@@ -11,5 +11,5 @@
             android:id="@+id/textView"
             android:textSize="24sp"
             android:textColor="@android:color/black"
-            android:textColorLink="@color/ic_launcher_background"/>
+            android:textColorLink="@color/colorAccent"/>
 </LinearLayout>

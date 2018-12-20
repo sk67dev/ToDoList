@@ -6,11 +6,11 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import app.bluecoral.MinimaLista.TodoModel.DeleteToDoActivity
+import app.bluecoral.MinimaLista.DeleteModel.DeleteToDoActivity
 import app.bluecoral.MinimaLista.R
 import kotlinx.android.synthetic.main.todo_row.view.*
 
-class ToDoAdapter(val todos: List<String>) : RecyclerView.Adapter<ToDoAdapter.ToDoHolder>() {
+class HomeAdapter(val todos: List<String>) : RecyclerView.Adapter<HomeAdapter.ToDoHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, position: Int): ToDoHolder {
         return ToDoHolder(
             LayoutInflater.from(parent.context).inflate(R.layout.todo_row, parent, false)

@@ -7,24 +7,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
-import app.bluecoral.MinimaLista.Adapter.ToDoAdapter
+import app.bluecoral.MinimaLista.Adapter.InterestsTravelAdapter
+import app.bluecoral.MinimaLista.CreateModel.CreateToDoActivity
 import app.bluecoral.MinimaLista.R
 
-import kotlinx.android.synthetic.main.activity_main_todo.*
-import kotlinx.android.synthetic.main.content_main_todo.*
+import kotlinx.android.synthetic.main.activity_interests_travel_todo.*
+import kotlinx.android.synthetic.main.content_home.*
 
-class MainActivity : AppCompatActivity() {
+class InterestsTravelActivity : AppCompatActivity() {
 
     lateinit var layoutManager: LinearLayoutManager
-    lateinit var adapter: ToDoAdapter
+    lateinit var adapter: InterestsTravelAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_todo)
-        setSupportActionBar(toolbar)
+        setContentView(R.layout.activity_interests_travel_todo)
+        setSupportActionBar(toolbar4)
 
         //Add intent to go to CreateToDoActivity
-        fab.setOnClickListener { view ->
+        fab4.setOnClickListener { view ->
             val intent = Intent(this, CreateToDoActivity::class.java )
             startActivity(intent)
         }
@@ -40,10 +41,10 @@ class MainActivity : AppCompatActivity() {
 
         layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager
-        adapter = ToDoAdapter(todos.toList())
+        adapter = InterestsTravelAdapter(todos.toList())
         recyclerView.adapter = adapter
     }
-        override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu.
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
@@ -58,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             updateRecycler()
 
             return true
-    }
+        }
         return super.onOptionsItemSelected(item)
     }
 }

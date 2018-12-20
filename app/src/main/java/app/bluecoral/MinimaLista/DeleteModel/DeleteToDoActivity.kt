@@ -1,4 +1,4 @@
-package app.bluecoral.MinimaLista.TodoModel
+package app.bluecoral.MinimaLista.DeleteModel
 
 import android.content.Context
 import android.support.v7.app.AppCompatActivity

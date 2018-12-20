@@ -13,9 +13,13 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/titleEditText"
-            android:hint="Title" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent"
+            android:hint="Title"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             android:textColorLink="@color/ic_launcher_background"/>
     <CheckBox
@@ -24,7 +28,8 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="@+id/titleEditText"
             android:id="@+id/importantCheckBox"
-            android:textSize="24sp" android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/titleEditText"
     />
     <Button
@@ -33,6 +38,8 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="@+id/importantCheckBox"
             android:id="@+id/saveButton"
-            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/importantCheckBox"
-            android:background="@color/ic_launcher_background" android:textColorLink="@color/ic_launcher_background"/>
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/importantCheckBox"
+            android:background="@color/colorAccent"
+            android:textColorLink="@color/colorAccent"/>
 </android.support.constraint.ConstraintLayout>
