@@ -8,7 +8,8 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import app.bluecoral.MinimaLista.Adapter.OtherAdapter
-import app.bluecoral.MinimaLista.CreateModel.CreateToDoActivity
+import app.bluecoral.MinimaLista.CreateModel.HomeToDoActivity
+import app.bluecoral.MinimaLista.CreateModel.OtherToDoActivity
 import app.bluecoral.MinimaLista.R
 
 import kotlinx.android.synthetic.main.activity_other_todo.*
@@ -22,11 +23,11 @@ class OtherActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_other_todo)
-        setSupportActionBar(toolbar5)
+        setSupportActionBar(toolbar)
 
-        //Add intent to go to CreateToDoActivity
-        fab5.setOnClickListener { view ->
-            val intent = Intent(this, CreateToDoActivity::class.java )
+        //Add intent to go to HomeToDoActivity
+        fab.setOnClickListener { view ->
+            val intent = Intent(this, OtherToDoActivity::class.java )
             startActivity(intent)
         }
     }
@@ -36,7 +37,7 @@ class OtherActivity : AppCompatActivity() {
     }
     fun updateRecycler() {
         var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS), setOf()).toMutableSet()
+        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS6), setOf()).toMutableSet()
         println(todos)
 
         layoutManager = LinearLayoutManager(this)
@@ -55,7 +56,7 @@ class OtherActivity : AppCompatActivity() {
             var prefs = getSharedPreferences(getString(
                 R.string.SHARED_PREF_NAME
             ), Context.MODE_PRIVATE)
-            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS), null).apply()
+            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS6), null).apply()
             updateRecycler()
 
             return true

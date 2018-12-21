@@ -8,7 +8,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import app.bluecoral.MinimaLista.Adapter.HomeAdapter
-import app.bluecoral.MinimaLista.CreateModel.CreateToDoActivity
+import app.bluecoral.MinimaLista.CreateModel.HomeToDoActivity
 import app.bluecoral.MinimaLista.R
 
 import kotlinx.android.synthetic.main.activity_home_todo.*
@@ -25,9 +25,9 @@ class HomeActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
 
-        //Add intent to go to CreateToDoActivity
+        //Add intent to go to HomeToDoActivity
         fab.setOnClickListener { view ->
-            val intent = Intent(this, CreateToDoActivity::class.java )
+            val intent = Intent(this, HomeToDoActivity::class.java )
             startActivity(intent)
         }
     }
@@ -37,7 +37,7 @@ class HomeActivity : AppCompatActivity() {
     }
     fun updateRecycler() {
         var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS), setOf()).toMutableSet()
+        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS1), setOf()).toMutableSet()
         println(todos)
 
         layoutManager = LinearLayoutManager(this)
@@ -56,7 +56,7 @@ class HomeActivity : AppCompatActivity() {
             var prefs = getSharedPreferences(getString(
                 R.string.SHARED_PREF_NAME
             ), Context.MODE_PRIVATE)
-            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS), null).apply()
+            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS1), null).apply()
             updateRecycler()
 
             return true

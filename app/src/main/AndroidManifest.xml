@@ -19,20 +19,47 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".CreateModel.CreateToDoActivity">
+
+
+        <activity android:name=".CreateModel.HomeToDoActivity">
         </activity>
         <activity android:name=".DeleteModel.DeleteToDoActivity">
         </activity>
+
+
+
+        <activity android:name=".CreateModel.WorkStudyToDoActivity">
+        </activity>
+        <activity android:name=".CreateModel.ShoppingToDoActivity">
+        </activity>
+        <activity android:name=".CreateModel.FriendsFamilyToDoActivity">
+        </activity>
+        <activity android:name=".CreateModel.InterestsToDoActivity">
+        </activity>
+        <activity android:name=".CreateModel.OtherToDoActivity">
+        </activity>
+
+
+
+
+
+
         <activity
                 android:name=".TodoModel.HomeActivity"
-                android:label="@string/title_activity_create_list"
+                android:label="@string/title_activity_home"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
+
+
+
         <activity
                 android:name=".TodoModel.WorkStudyActivity"
                 android:label="@string/title_activity_work_study"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
+
+
+
         <activity
                 android:name=".TodoModel.ShoppingActivity"
                 android:label="@string/title_activity_shopping"

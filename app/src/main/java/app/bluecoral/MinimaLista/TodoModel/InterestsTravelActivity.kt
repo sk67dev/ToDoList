@@ -8,7 +8,8 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import app.bluecoral.MinimaLista.Adapter.InterestsTravelAdapter
-import app.bluecoral.MinimaLista.CreateModel.CreateToDoActivity
+import app.bluecoral.MinimaLista.CreateModel.HomeToDoActivity
+import app.bluecoral.MinimaLista.CreateModel.InterestsToDoActivity
 import app.bluecoral.MinimaLista.R
 
 import kotlinx.android.synthetic.main.activity_interests_travel_todo.*
@@ -22,11 +23,11 @@ class InterestsTravelActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_interests_travel_todo)
-        setSupportActionBar(toolbar4)
+        setSupportActionBar(toolbar)
 
-        //Add intent to go to CreateToDoActivity
-        fab4.setOnClickListener { view ->
-            val intent = Intent(this, CreateToDoActivity::class.java )
+        //Add intent to go to HomeToDoActivity
+        fab.setOnClickListener { view ->
+            val intent = Intent(this, InterestsToDoActivity::class.java )
             startActivity(intent)
         }
     }
@@ -36,7 +37,7 @@ class InterestsTravelActivity : AppCompatActivity() {
     }
     fun updateRecycler() {
         var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS), setOf()).toMutableSet()
+        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS5), setOf()).toMutableSet()
         println(todos)
 
         layoutManager = LinearLayoutManager(this)
@@ -55,7 +56,7 @@ class InterestsTravelActivity : AppCompatActivity() {
             var prefs = getSharedPreferences(getString(
                 R.string.SHARED_PREF_NAME
             ), Context.MODE_PRIVATE)
-            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS), null).apply()
+            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS5), null).apply()
             updateRecycler()
 
             return true
