@@ -4,7 +4,7 @@ import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import app.bluecoral.MinimaLista.R
-import kotlinx.android.synthetic.main.activity_create_home_todo.*
+import kotlinx.android.synthetic.main.activity_create_home_bills_todo.*
 import kotlinx.android.synthetic.main.activity_create_work_study_todo.*
 
 class WorkStudyToDoActivity : AppCompatActivity() {

@@ -8,12 +8,11 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import app.bluecoral.MinimaLista.Adapter.InterestsTravelAdapter
-import app.bluecoral.MinimaLista.CreateModel.HomeToDoActivity
-import app.bluecoral.MinimaLista.CreateModel.InterestsToDoActivity
+import app.bluecoral.MinimaLista.CreateModel.InterestsTravelToDoActivity
 import app.bluecoral.MinimaLista.R
 
 import kotlinx.android.synthetic.main.activity_interests_travel_todo.*
-import kotlinx.android.synthetic.main.content_home.*
+import kotlinx.android.synthetic.main.content_home_bills.*
 
 class InterestsTravelActivity : AppCompatActivity() {
 
@@ -25,9 +24,9 @@ class InterestsTravelActivity : AppCompatActivity() {
         setContentView(R.layout.activity_interests_travel_todo)
         setSupportActionBar(toolbar)
 
-        //Add intent to go to HomeToDoActivity
+        //Add intent to go to HomeBillsToDoActivity
         fab.setOnClickListener { view ->
-            val intent = Intent(this, InterestsToDoActivity::class.java )
+            val intent = Intent(this, InterestsTravelToDoActivity::class.java )
             startActivity(intent)
         }
     }

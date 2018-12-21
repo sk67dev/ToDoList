@@ -13,9 +13,9 @@
     <string name="action_delete_all">Delete All</string>
 
 
-    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_home">HomeBillsActivity</string>
     <string name="title_activity_work_study">WorkStudyActivity</string>
-    <string name="title_activity_shopping">ShoppingActivity</string>
+    <string name="title_activity_shopping">GroceriesActivity</string>
     <string name="title_activity_friends_family">FriendsFamilyActivity</string>
     <string name="title_activity_interests_travel">InterestsTravelActivity</string>
     <string name="title_activity_other">OtherActivity</string>

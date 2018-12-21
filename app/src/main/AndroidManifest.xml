@@ -21,47 +21,44 @@
         </activity>
 
 
-        <activity android:name=".CreateModel.HomeToDoActivity">
+        <activity android:name=".CreateModel.HomeBillsToDoActivity">
         </activity>
-        <activity android:name=".DeleteModel.DeleteToDoActivity">
+        <activity android:name=".DeleteModel.HomeBillsDeleteToDoActivity">
         </activity>
-
-
-
         <activity android:name=".CreateModel.WorkStudyToDoActivity">
         </activity>
-        <activity android:name=".CreateModel.ShoppingToDoActivity">
+        <activity android:name=".DeleteModel.WorkStudyDeleteToDoActivity">
+        </activity>
+        <activity android:name=".CreateModel.GroceriesToDoActivity">
+        </activity>
+        <activity android:name=".DeleteModel.GroceriesDeleteToDoActivity">
         </activity>
         <activity android:name=".CreateModel.FriendsFamilyToDoActivity">
         </activity>
-        <activity android:name=".CreateModel.InterestsToDoActivity">
+        <activity android:name=".DeleteModel.FriendsFamilyDeleteToDoActivity">
+        </activity>
+        <activity android:name=".CreateModel.InterestsTravelToDoActivity">
+        </activity>
+        <activity android:name=".DeleteModel.InterestsTravelDeleteToDoActivity">
         </activity>
         <activity android:name=".CreateModel.OtherToDoActivity">
         </activity>
-
-
-
-
-
-
-        <activity
-                android:name=".TodoModel.HomeActivity"
-                android:label="@string/title_activity_home"
-                android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".DeleteModel.OtherDeleteToDoActivity">
         </activity>
 
 
-
+        <activity
+                android:name=".TodoModel.HomeBillsActivity"
+                android:label="@string/title_activity_home"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity
                 android:name=".TodoModel.WorkStudyActivity"
                 android:label="@string/title_activity_work_study"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-
-
-
         <activity
-                android:name=".TodoModel.ShoppingActivity"
+                android:name=".TodoModel.GroceriesActivity"
                 android:label="@string/title_activity_shopping"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>

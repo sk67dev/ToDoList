@@ -8,12 +8,11 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import app.bluecoral.MinimaLista.Adapter.OtherAdapter
-import app.bluecoral.MinimaLista.CreateModel.HomeToDoActivity
 import app.bluecoral.MinimaLista.CreateModel.OtherToDoActivity
 import app.bluecoral.MinimaLista.R
 
 import kotlinx.android.synthetic.main.activity_other_todo.*
-import kotlinx.android.synthetic.main.content_home.*
+import kotlinx.android.synthetic.main.content_home_bills.*
 
 class OtherActivity : AppCompatActivity() {
 
@@ -25,7 +24,7 @@ class OtherActivity : AppCompatActivity() {
         setContentView(R.layout.activity_other_todo)
         setSupportActionBar(toolbar)
 
-        //Add intent to go to HomeToDoActivity
+        //Add intent to go to HomeBillsToDoActivity
         fab.setOnClickListener { view ->
             val intent = Intent(this, OtherToDoActivity::class.java )
             startActivity(intent)

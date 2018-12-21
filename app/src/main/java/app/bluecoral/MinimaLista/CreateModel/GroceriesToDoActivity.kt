@@ -4,15 +4,13 @@ import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import app.bluecoral.MinimaLista.R
-import kotlinx.android.synthetic.main.activity_create_home_todo.*
-import kotlinx.android.synthetic.main.activity_create_shopping_todo.*
-import kotlinx.android.synthetic.main.activity_create_work_study_todo.*
+import kotlinx.android.synthetic.main.activity_create_groceries_todo.*
 
-class ShoppingToDoActivity : AppCompatActivity() {
+class GroceriesToDoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_create_shopping_todo)
+        setContentView(R.layout.activity_create_groceries_todo)
 
         saveButton2.setOnClickListener {
             var title = ""

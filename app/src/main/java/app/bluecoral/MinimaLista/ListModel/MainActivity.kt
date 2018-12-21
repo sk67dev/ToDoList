@@ -3,8 +3,6 @@ package app.bluecoral.MinimaLista.ListModel
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity;
-import app.bluecoral.MinimaLista.CreateModel.HomeToDoActivity
-import app.bluecoral.MinimaLista.CreateModel.WorkStudyToDoActivity
 import app.bluecoral.MinimaLista.R
 import app.bluecoral.MinimaLista.TodoModel.*
 import kotlinx.android.synthetic.main.activity_main_list.*
@@ -21,8 +19,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main_list)
 
         card1.setOnClickListener {
-            val intent1 = Intent(this, HomeActivity::class.java)
-                home.setBackgroundResource(R.drawable.home)
+            val intent1 = Intent(this, HomeBillsActivity::class.java)
+                home_bills.setBackgroundResource(R.drawable.home)
                 startActivity(intent1)
         }
         card2.setOnClickListener {
@@ -31,8 +29,8 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent2)
         }
         card3.setOnClickListener {
-            val intent3 = Intent(this, ShoppingActivity::class.java)
-            shopping.setBackgroundResource(R.drawable.shopping)
+            val intent3 = Intent(this, GroceriesActivity::class.java)
+            groceries.setBackgroundResource(R.drawable.shopping)
             startActivity(intent3)
         }
         card4.setOnClickListener {

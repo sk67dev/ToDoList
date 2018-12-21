@@ -9,11 +9,10 @@ import android.view.Menu
 import android.view.MenuItem
 import app.bluecoral.MinimaLista.Adapter.FriendsFamilyAdapter
 import app.bluecoral.MinimaLista.CreateModel.FriendsFamilyToDoActivity
-import app.bluecoral.MinimaLista.CreateModel.HomeToDoActivity
 import app.bluecoral.MinimaLista.R
 
 import kotlinx.android.synthetic.main.activity_friends_family_todo.*
-import kotlinx.android.synthetic.main.content_home.*
+import kotlinx.android.synthetic.main.content_home_bills.*
 
 class FriendsFamilyActivity : AppCompatActivity() {
 
@@ -25,7 +24,7 @@ class FriendsFamilyActivity : AppCompatActivity() {
         setContentView(R.layout.activity_friends_family_todo)
         setSupportActionBar(toolbar)
 
-        //Add intent to go to HomeToDoActivity
+        //Add intent to go to HomeBillsToDoActivity
         fab.setOnClickListener { view ->
             val intent = Intent(this, FriendsFamilyToDoActivity::class.java )
             startActivity(intent)

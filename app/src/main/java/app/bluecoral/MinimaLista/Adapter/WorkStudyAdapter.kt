@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import app.bluecoral.MinimaLista.R
-import app.bluecoral.MinimaLista.DeleteModel.DeleteToDoActivity
+import app.bluecoral.MinimaLista.DeleteModel.WorkStudyDeleteToDoActivity
 import kotlinx.android.synthetic.main.todo_row.view.*
 
 class WorkStudyAdapter(val todos: List<String>) : RecyclerView.Adapter<WorkStudyAdapter.ToDoHolder>() {
@@ -34,7 +34,7 @@ class WorkStudyAdapter(val todos: List<String>) : RecyclerView.Adapter<WorkStudy
             view.textView.text = title
         }
         override fun onClick(v: View?) {
-            val intent = Intent(view.context, DeleteToDoActivity::class.java)
+            val intent = Intent(view.context, WorkStudyDeleteToDoActivity::class.java)
             intent.putExtra("title", title)
             ContextCompat.startActivity(view.context, intent, null)
 

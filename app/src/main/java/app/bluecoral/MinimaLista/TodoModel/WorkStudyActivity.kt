@@ -12,7 +12,7 @@ import app.bluecoral.MinimaLista.CreateModel.WorkStudyToDoActivity
 import app.bluecoral.MinimaLista.R
 
 import kotlinx.android.synthetic.main.activity_work_study_todo.*
-import kotlinx.android.synthetic.main.content_home.*
+import kotlinx.android.synthetic.main.content_home_bills.*
 
 class WorkStudyActivity : AppCompatActivity() {
 
@@ -24,7 +24,7 @@ class WorkStudyActivity : AppCompatActivity() {
         setContentView(R.layout.activity_work_study_todo)
         setSupportActionBar(toolbar)
 
-        //Add intent to go to HomeToDoActivity
+        //Add intent to go to HomeBillsToDoActivity
         fab.setOnClickListener { view ->
             val intent = Intent(this, WorkStudyToDoActivity::class.java )
             startActivity(intent)

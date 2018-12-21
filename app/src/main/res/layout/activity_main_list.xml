@@ -29,11 +29,11 @@
                 android:orientation="vertical">
 
             <TextView
-                    android:id="@+id/home"
+                    android:id="@+id/home_bills"
                     android:layout_width="match_parent"
                     android:textSize="30sp"
                     android:textStyle="bold"
-                    android:text="HOME"
+                    android:text="HOME/BILLS"
                     android:layout_height="wrap_content"/>
         </LinearLayout>
 
@@ -91,12 +91,12 @@
                 android:orientation="vertical">
 
             <TextView
-                    android:id="@+id/shopping"
+                    android:id="@+id/groceries"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="30sp"
                     android:textStyle="bold"
-                    android:text="SHOPPING"/>
+                    android:text="GROCERIES"/>
         </LinearLayout>
 
     </android.support.v7.widget.CardView>

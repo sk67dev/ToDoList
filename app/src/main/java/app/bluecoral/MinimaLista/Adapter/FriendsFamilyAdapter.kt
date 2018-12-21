@@ -6,8 +6,8 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import app.bluecoral.MinimaLista.DeleteModel.FriendsFamilyDeleteToDoActivity
 import app.bluecoral.MinimaLista.R
-import app.bluecoral.MinimaLista.DeleteModel.DeleteToDoActivity
 import kotlinx.android.synthetic.main.todo_row.view.*
 
 class FriendsFamilyAdapter(val todos: List<String>) : RecyclerView.Adapter<FriendsFamilyAdapter.ToDoHolder>() {
@@ -34,7 +34,7 @@ class FriendsFamilyAdapter(val todos: List<String>) : RecyclerView.Adapter<Frien
             view.textView.text = title
         }
         override fun onClick(v: View?) {
-            val intent = Intent(view.context, DeleteToDoActivity::class.java)
+            val intent = Intent(view.context, FriendsFamilyDeleteToDoActivity::class.java)
             intent.putExtra("title", title)
             ContextCompat.startActivity(view.context, intent, null)
 

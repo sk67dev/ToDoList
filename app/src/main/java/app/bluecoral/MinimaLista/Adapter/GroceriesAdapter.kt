@@ -7,10 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import app.bluecoral.MinimaLista.R
-import app.bluecoral.MinimaLista.DeleteModel.DeleteToDoActivity
+import app.bluecoral.MinimaLista.DeleteModel.GroceriesDeleteToDoActivity
 import kotlinx.android.synthetic.main.todo_row.view.*
 
-class ShoppingAdapter(val todos: List<String>) : RecyclerView.Adapter<ShoppingAdapter.ToDoHolder>() {
+class GroceriesAdapter(val todos: List<String>) : RecyclerView.Adapter<GroceriesAdapter.ToDoHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, position: Int): ToDoHolder {
         return ToDoHolder(
             LayoutInflater.from(parent.context).inflate(R.layout.todo_row, parent, false)
@@ -34,7 +34,7 @@ class ShoppingAdapter(val todos: List<String>) : RecyclerView.Adapter<ShoppingAd
             view.textView.text = title
         }
         override fun onClick(v: View?) {
-            val intent = Intent(view.context, DeleteToDoActivity::class.java)
+            val intent = Intent(view.context, GroceriesDeleteToDoActivity::class.java)
             intent.putExtra("title", title)
             ContextCompat.startActivity(view.context, intent, null)
 

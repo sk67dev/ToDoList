@@ -6,11 +6,11 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import app.bluecoral.MinimaLista.DeleteModel.DeleteToDoActivity
+import app.bluecoral.MinimaLista.DeleteModel.HomeBillsDeleteToDoActivity
 import app.bluecoral.MinimaLista.R
 import kotlinx.android.synthetic.main.todo_row.view.*
 
-class HomeAdapter(val todos: List<String>) : RecyclerView.Adapter<HomeAdapter.ToDoHolder>() {
+class HomeBillsAdapter(val todos: List<String>) : RecyclerView.Adapter<HomeBillsAdapter.ToDoHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, position: Int): ToDoHolder {
         return ToDoHolder(
             LayoutInflater.from(parent.context).inflate(R.layout.todo_row, parent, false)
@@ -34,7 +34,7 @@ class HomeAdapter(val todos: List<String>) : RecyclerView.Adapter<HomeAdapter.To
                 view.textView.text = title
             }
             override fun onClick(v: View?) {
-                val intent = Intent(view.context, DeleteToDoActivity::class.java)
+                val intent = Intent(view.context, HomeBillsDeleteToDoActivity::class.java)
                 intent.putExtra("title", title)
                 startActivity(view.context, intent, null)
 

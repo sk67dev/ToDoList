@@ -7,27 +7,27 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
-import app.bluecoral.MinimaLista.Adapter.ShoppingAdapter
-import app.bluecoral.MinimaLista.CreateModel.HomeToDoActivity
-import app.bluecoral.MinimaLista.CreateModel.ShoppingToDoActivity
+import app.bluecoral.MinimaLista.Adapter.HomeBillsAdapter
+import app.bluecoral.MinimaLista.CreateModel.HomeBillsToDoActivity
 import app.bluecoral.MinimaLista.R
 
-import kotlinx.android.synthetic.main.activity_shopping_todo.*
-import kotlinx.android.synthetic.main.content_home.*
+import kotlinx.android.synthetic.main.activity_home_bills_todo.*
+import kotlinx.android.synthetic.main.content_home_bills.*
 
-class ShoppingActivity : AppCompatActivity() {
+class HomeBillsActivity : AppCompatActivity() {
 
     lateinit var layoutManager: LinearLayoutManager
-    lateinit var adapter: ShoppingAdapter
+    lateinit var adapter: HomeBillsAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_shopping_todo)
+        setContentView(R.layout.activity_home_bills_todo)
         setSupportActionBar(toolbar)
 
-        //Add intent to go to HomeToDoActivity
+
+        //Add intent to go to HomeBillsToDoActivity
         fab.setOnClickListener { view ->
-            val intent = Intent(this, ShoppingToDoActivity::class.java )
+            val intent = Intent(this, HomeBillsToDoActivity::class.java )
             startActivity(intent)
         }
     }
@@ -37,15 +37,15 @@ class ShoppingActivity : AppCompatActivity() {
     }
     fun updateRecycler() {
         var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS3), setOf()).toMutableSet()
+        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS1), setOf()).toMutableSet()
         println(todos)
 
         layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager
-        adapter = ShoppingAdapter(todos.toList())
+        adapter = HomeBillsAdapter(todos.toList())
         recyclerView.adapter = adapter
     }
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu.
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
@@ -56,11 +56,11 @@ class ShoppingActivity : AppCompatActivity() {
             var prefs = getSharedPreferences(getString(
                 R.string.SHARED_PREF_NAME
             ), Context.MODE_PRIVATE)
-            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS3), null).apply()
+            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS1), null).apply()
             updateRecycler()
 
             return true
-        }
+    }
         return super.onOptionsItemSelected(item)
     }
 }
