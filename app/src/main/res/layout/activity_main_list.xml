@@ -13,7 +13,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardElevation="20dp"
+            app:cardElevation="15dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
@@ -21,7 +21,8 @@
             app:cardMaxElevation="2dp"
             app:contentPadding="4dp"
             android:layout_weight="1"
-            android:id="@+id/card1">
+            android:id="@+id/card1"
+            android:background="@drawable/home">
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -32,9 +33,10 @@
                     android:id="@+id/home_bills"
                     android:layout_width="match_parent"
                     android:textSize="30sp"
+                    android:text="HOME/BILLS 🏠"
+                    android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="HOME/BILLS"
-                    android:layout_height="wrap_content"/>
+                    android:textColor="@color/colorPrimary1"/>
         </LinearLayout>
 
     </android.support.v7.widget.CardView>
@@ -44,7 +46,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardElevation="20dp"
+            app:cardElevation="15dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
@@ -52,7 +54,8 @@
             app:cardMaxElevation="2dp"
             app:contentPadding="4dp"
             android:layout_weight="1"
-            android:id="@+id/card2">
+            android:id="@+id/card2"
+            android:background="@drawable/work_study">
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -64,8 +67,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="30sp"
+                    android:text="WORK/STUDY 💻"
                     android:textStyle="bold"
-                    android:text="WORK/STUDY"/>
+                    android:textColor="@color/colorPrimary2"/>
         </LinearLayout>
 
     </android.support.v7.widget.CardView>
@@ -75,7 +79,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardElevation="20dp"
+            app:cardElevation="15dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
@@ -83,7 +87,9 @@
             app:cardMaxElevation="2dp"
             app:contentPadding="4dp"
             android:layout_weight="1"
-            android:id="@+id/card3">
+            android:id="@+id/card3"
+            android:background="@drawable/shopping"
+            android:elevation="30dp">
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -95,8 +101,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="30sp"
+                    android:text="GROCERIES 🥖"
+                    android:textAlignment="textStart"
                     android:textStyle="bold"
-                    android:text="GROCERIES"/>
+                    android:textColor="@color/colorPrimary3"/>
         </LinearLayout>
 
     </android.support.v7.widget.CardView>
@@ -106,7 +114,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardElevation="20dp"
+            app:cardElevation="15dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
@@ -114,7 +122,8 @@
             app:cardMaxElevation="2dp"
             app:contentPadding="4dp"
             android:layout_weight="1"
-            android:id="@+id/card4">
+            android:id="@+id/card4"
+            android:background="@drawable/friends_family">
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -126,8 +135,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="30sp"
+                    android:text="FRIENDS/FAMILY 👨‍👩‍👧‍👦"
                     android:textStyle="bold"
-                    android:text="FRIENDS/FAMILY"/>
+                    android:textColor="@color/colorPrimary4"/>
+
         </LinearLayout>
 
     </android.support.v7.widget.CardView>
@@ -137,7 +148,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardElevation="20dp"
+            app:cardElevation="15dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
@@ -148,7 +159,8 @@
             android:clickable="true"
             android:focusable="true"
             android:layout_weight="1"
-            android:id="@+id/card5">
+            android:id="@+id/card5"
+            android:background="@drawable/interests_travel">
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -160,8 +172,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="30sp"
+                    android:text="INTERESTS/TRAVEL ✈️"
                     android:textStyle="bold"
-                    android:text="INTERESTS/TRAVEL"/>
+                    android:textColor="@color/colorPrimary5"/>
         </LinearLayout>
 
     </android.support.v7.widget.CardView>
@@ -171,7 +184,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardElevation="20dp"
+            app:cardElevation="15dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
@@ -179,7 +192,8 @@
             app:cardMaxElevation="2dp"
             app:contentPadding="4dp"
             android:layout_weight="1"
-            android:id="@+id/card6">
+            android:id="@+id/card6"
+            android:background="@drawable/other">
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -191,8 +205,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="30sp"
+                    android:text="OTHER 💡"
                     android:textStyle="bold"
-                    android:text="OTHER"/>
+                    android:textColor="@color/colorPrimaryDark6"/>
         </LinearLayout>
 
     </android.support.v7.widget.CardView>

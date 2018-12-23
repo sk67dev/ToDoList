@@ -24,7 +24,6 @@ class HomeBillsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home_bills_todo)
         setSupportActionBar(toolbar)
 
-
         //Add intent to go to HomeBillsToDoActivity
         fab.setOnClickListener { view ->
             val intent = Intent(this, HomeBillsToDoActivity::class.java )

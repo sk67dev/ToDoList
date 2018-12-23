@@ -32,6 +32,6 @@
             android:layout_marginBottom="16dp"
             android:id="@+id/completeButton"
             app:layout_constraintHorizontal_bias="0.5"
-            android:background="@color/colorAccent"
-            android:textColorLink="@color/colorAccent"/>
+            android:background="@color/colorAccent4"
+            android:textColorLink="@color/colorAccent4"/>
 </android.support.constraint.ConstraintLayout>

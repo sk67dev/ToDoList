@@ -4,9 +4,9 @@
 
     <application
             android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@mipmap/icon_1"
             android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher_round"
+            android:roundIcon="@mipmap/icon_1"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
@@ -20,30 +20,41 @@
             </intent-filter>
         </activity>
 
-
-        <activity android:name=".CreateModel.HomeBillsToDoActivity">
+        <activity android:name=".CreateModel.HomeBillsToDoActivity"
+                  android:theme="@style/Theme1">
         </activity>
-        <activity android:name=".DeleteModel.HomeBillsDeleteToDoActivity">
+        <activity android:name=".DeleteModel.HomeBillsDeleteToDoActivity"
+                  android:theme="@style/Theme1">
         </activity>
-        <activity android:name=".CreateModel.WorkStudyToDoActivity">
+        <activity android:name=".CreateModel.WorkStudyToDoActivity"
+                  android:theme="@style/Theme2">
         </activity>
-        <activity android:name=".DeleteModel.WorkStudyDeleteToDoActivity">
+        <activity android:name=".DeleteModel.WorkStudyDeleteToDoActivity"
+                  android:theme="@style/Theme2">
         </activity>
-        <activity android:name=".CreateModel.GroceriesToDoActivity">
+        <activity android:name=".CreateModel.GroceriesToDoActivity"
+                  android:theme="@style/Theme3">
         </activity>
-        <activity android:name=".DeleteModel.GroceriesDeleteToDoActivity">
+        <activity android:name=".DeleteModel.GroceriesDeleteToDoActivity"
+                  android:theme="@style/Theme3">
         </activity>
-        <activity android:name=".CreateModel.FriendsFamilyToDoActivity">
+        <activity android:name=".CreateModel.FriendsFamilyToDoActivity"
+                  android:theme="@style/Theme4">
         </activity>
-        <activity android:name=".DeleteModel.FriendsFamilyDeleteToDoActivity">
+        <activity android:name=".DeleteModel.FriendsFamilyDeleteToDoActivity"
+                  android:theme="@style/Theme4">
         </activity>
-        <activity android:name=".CreateModel.InterestsTravelToDoActivity">
+        <activity android:name=".CreateModel.InterestsTravelToDoActivity"
+                  android:theme="@style/Theme5">
         </activity>
-        <activity android:name=".DeleteModel.InterestsTravelDeleteToDoActivity">
+        <activity android:name=".DeleteModel.InterestsTravelDeleteToDoActivity"
+                  android:theme="@style/Theme5">
         </activity>
-        <activity android:name=".CreateModel.OtherToDoActivity">
+        <activity android:name=".CreateModel.OtherToDoActivity"
+                  android:theme="@style/Theme6">
         </activity>
-        <activity android:name=".DeleteModel.OtherDeleteToDoActivity">
+        <activity android:name=".DeleteModel.OtherDeleteToDoActivity"
+                  android:theme="@style/Theme6">
         </activity>
 
 

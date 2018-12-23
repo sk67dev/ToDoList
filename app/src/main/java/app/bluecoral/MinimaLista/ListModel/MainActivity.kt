@@ -9,43 +9,38 @@ import kotlinx.android.synthetic.main.activity_main_list.*
 
 class MainActivity : AppCompatActivity() {
 
-    //Create new list feature on the application.
-    //This list activity will need to be the first activity. The second activity will
-    // be the todos.
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_list)
 
         card1.setOnClickListener {
             val intent1 = Intent(this, HomeBillsActivity::class.java)
-                home_bills.setBackgroundResource(R.drawable.home)
+               // home_bills.setBackgroundResource(R.drawable.home)
                 startActivity(intent1)
         }
         card2.setOnClickListener {
             val intent2 = Intent(this, WorkStudyActivity::class.java)
-                work_study.setBackgroundResource(R.drawable.work_study)
+               // work_study.setBackgroundResource(R.drawable.work_study)
                 startActivity(intent2)
         }
         card3.setOnClickListener {
             val intent3 = Intent(this, GroceriesActivity::class.java)
-            groceries.setBackgroundResource(R.drawable.shopping)
+            //groceries.setBackgroundResource(R.drawable.shopping)
             startActivity(intent3)
         }
         card4.setOnClickListener {
             val intent4 = Intent(this, FriendsFamilyActivity::class.java)
-            friends_family.setBackgroundResource(R.drawable.friends_family)
+            //friends_family.setBackgroundResource(R.drawable.friends_family)
             startActivity(intent4)
         }
         card5.setOnClickListener {
             val intent5 = Intent(this, InterestsTravelActivity::class.java)
-            interests_travel.setBackgroundResource(R.drawable.interests_travel)
+            //interests_travel.setBackgroundResource(R.drawable.interests_travel)
             startActivity(intent5)
         }
         card6.setOnClickListener {
             val intent6 = Intent(this, OtherActivity::class.java)
-            other.setBackgroundResource(R.drawable.other)
+            //other.setBackgroundResource(R.drawable.other)
             startActivity(intent6)
         }
     }
