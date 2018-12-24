@@ -18,7 +18,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/colorPrimary3"
-                app:popupTheme="@style/Theme3"/>
+                app:popupTheme="@style/Theme3"
+                app:titleTextColor="@android:color/white"/>
 
     </android.support.design.widget.AppBarLayout>
 
@@ -32,5 +33,4 @@
             android:layout_margin="@dimen/fab_margin"
             android:src="@drawable/ic_add_white_24dp"
             app:backgroundTint="@color/colorAccent3"/>
-
 </android.support.design.widget.CoordinatorLayout>

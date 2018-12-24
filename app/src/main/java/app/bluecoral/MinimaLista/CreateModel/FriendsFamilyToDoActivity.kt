@@ -20,9 +20,9 @@ class FriendsFamilyToDoActivity : AppCompatActivity() {
                 title = titleEditText.text.toString()
             }
             var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS4), setOf()).toMutableSet()
+            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS5), setOf()).toMutableSet()
             todos.add(title)
-            prefs.edit().putStringSet("todostrings4", todos).apply()
+            prefs.edit().putStringSet("todostrings5", todos).apply()
 
             finish()
         }

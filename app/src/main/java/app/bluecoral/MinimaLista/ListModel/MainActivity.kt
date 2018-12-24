@@ -29,15 +29,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent3)
         }
         card4.setOnClickListener {
-            val intent4 = Intent(this, FriendsFamilyActivity::class.java)
-            //friends_family.setBackgroundResource(R.drawable.friends_family)
+            val intent4 = Intent(this, InterestsTravelActivity::class.java)
+            //interests_travel.setBackgroundResource(R.drawable.interests_travel)
             startActivity(intent4)
         }
         card5.setOnClickListener {
-            val intent5 = Intent(this, InterestsTravelActivity::class.java)
-            //interests_travel.setBackgroundResource(R.drawable.interests_travel)
+            val intent5 = Intent(this, FriendsFamilyActivity::class.java)
+            //friends_family.setBackgroundResource(R.drawable.friends_family)
             startActivity(intent5)
         }
+
         card6.setOnClickListener {
             val intent6 = Intent(this, OtherActivity::class.java)
             //other.setBackgroundResource(R.drawable.other)

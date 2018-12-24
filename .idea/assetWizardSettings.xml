@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="29" />
+                                                <entry key="scalingPercent" value="76" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -34,8 +34,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="fbfbfb" />
-                                      <entry key="foregroundImage" value="$USER_HOME$/Documents/front.png" />
+                                      <entry key="backgroundColor" value="0aca3d" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Documents/MinimaLista/icon_img1.png" />
                                       <entry key="outputName" value="icon_1" />
                                     </map>
                                   </option>
@@ -67,7 +67,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/content/ic_add_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/navigation/ic_menu_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -77,7 +77,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_add_white_24dp" />
+                            <entry key="color" value="fbfbfb" />
+                            <entry key="outputName" value="settings_icon" />
                             <entry key="sourceFile" value="$USER_HOME$" />
                           </map>
                         </option>

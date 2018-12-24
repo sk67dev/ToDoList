@@ -1,5 +1,4 @@
 <resources>
-
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -12,10 +11,12 @@
     <style name="MainTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="MainTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
+
     <style name="Theme1" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
         <item name="colorPrimary">@color/colorPrimary1</item>
         <item name="colorAccent">@color/colorAccent1</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
     </style>
 
     <style name="Theme2" parent="Theme.AppCompat.Light.DarkActionBar">

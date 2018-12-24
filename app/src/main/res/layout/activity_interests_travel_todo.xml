@@ -6,19 +6,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".TodoModel.InterestsTravelActivity"
-        style="@style/Theme5">
+        style="@style/Theme4">
 
     <android.support.design.widget.AppBarLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:theme="@style/Theme5">
+            android:theme="@style/Theme4">
 
         <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="@color/colorPrimary5"
-                app:popupTheme="@style/Theme5"/>
+                android:background="@color/colorPrimary4"
+                app:popupTheme="@style/Theme4"
+                app:titleTextColor="@android:color/white"/>
 
     </android.support.design.widget.AppBarLayout>
 
@@ -31,6 +32,5 @@
             android:layout_gravity="bottom|end"
             android:layout_margin="@dimen/fab_margin"
             android:src="@drawable/ic_add_white_24dp"
-            app:backgroundTint="@color/colorAccent5"/>
-
+            app:backgroundTint="@color/colorAccent4"/>
 </android.support.design.widget.CoordinatorLayout>
