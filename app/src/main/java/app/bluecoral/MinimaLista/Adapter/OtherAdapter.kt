@@ -6,8 +6,8 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import app.bluecoral.MinimaLista.R
 import app.bluecoral.MinimaLista.DeleteModel.OtherDeleteToDoActivity
+import app.bluecoral.MinimaLista.R
 import kotlinx.android.synthetic.main.todo_row.view.*
 
 class OtherAdapter(val todos: List<String>) : RecyclerView.Adapter<OtherAdapter.ToDoHolder>() {

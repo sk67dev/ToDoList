@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MinimaLista</string>
 
-    <string name="SHARED_PREF_NAME">app.bluecoral.minimalista.sharedprefs</string>
+    <string name="SHARED_PREF_NAME">app.bluecoral.MinimaLista.sharedprefs</string>
 
     <string name="TODO_STRINGS1">todostrings1</string>
     <string name="TODO_STRINGS2">todostrings2</string>
