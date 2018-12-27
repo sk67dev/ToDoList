@@ -7,11 +7,11 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "app.bluecoral.todolist"
-        minSdkVersion 16
+        applicationId "app.bluecoral.MinimaLista"
+        minSdkVersion 15
         targetSdkVersion 28
-        versionCode 5
-        versionName "1.1.3"
+        versionCode 1
+        versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
