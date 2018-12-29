@@ -18,11 +18,11 @@ class WorkStudyDeleteToDoActivity : AppCompatActivity() {
         completeButton.setOnClickListener {
 
             var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS2), setOf()).toMutableSet()
+            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS4), setOf()).toMutableSet()
 
             todos.remove(todo)
 
-            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS2), todos).apply()
+            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS4), todos).apply()
 
             finish()
         }

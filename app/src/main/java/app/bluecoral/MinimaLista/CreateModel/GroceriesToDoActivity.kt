@@ -4,6 +4,7 @@ import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import app.bluecoral.MinimaLista.R
+import kotlinx.android.synthetic.main.activity_create_friends_family_todo.*
 import kotlinx.android.synthetic.main.activity_create_groceries_todo.*
 
 class GroceriesToDoActivity : AppCompatActivity() {
@@ -12,17 +13,17 @@ class GroceriesToDoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_groceries_todo)
 
-        saveButton2.setOnClickListener {
+        saveButton.setOnClickListener {
             var title = ""
-            if (importantCheckBox2.isChecked) {
-                title = "❗️️️️ " + titleEditText2.text.toString()
+            if (importantCheckBox.isChecked) {
+                title = "❗️️️️ " + titleEditText.text.toString()
             } else {
-                title = titleEditText2.text.toString()
+                title = titleEditText.text.toString()
             }
             var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS3), setOf()).toMutableSet()
+            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS5), setOf()).toMutableSet()
             todos.add(title)
-            prefs.edit().putStringSet("todostrings3", todos).apply()
+            prefs.edit().putStringSet("todostrings5", todos).apply()
 
             finish()
         }

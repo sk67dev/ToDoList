@@ -13,17 +13,17 @@ class WorkStudyToDoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_work_study_todo)
 
-        saveButton1.setOnClickListener {
+        saveButton.setOnClickListener {
             var title = ""
             if (importantCheckBox1.isChecked) {
-                title = "❗️️️️ " + titleEditText1.text.toString()
+                title = "❗️️️️ " + titleEditText.text.toString()
             } else {
-                title = titleEditText1.text.toString()
+                title = titleEditText.text.toString()
             }
             var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS2), setOf()).toMutableSet()
+            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS4), setOf()).toMutableSet()
             todos.add(title)
-            prefs.edit().putStringSet("todostrings2", todos).apply()
+            prefs.edit().putStringSet("todostrings4", todos).apply()
 
             finish()
         }

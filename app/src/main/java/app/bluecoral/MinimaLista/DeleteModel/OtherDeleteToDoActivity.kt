@@ -18,11 +18,11 @@ class OtherDeleteToDoActivity : AppCompatActivity() {
         completeButton.setOnClickListener {
 
             var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS6), setOf()).toMutableSet()
+            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS8), setOf()).toMutableSet()
 
             todos.remove(todo)
 
-            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS6), todos).apply()
+            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS8), todos).apply()
 
             finish()
         }

@@ -18,43 +18,86 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-
         </activity>
-        <activity android:name=".CreateModel.HomeBillsToDoActivity"
-                  android:theme="@style/Theme1">
+        <activity
+                android:name=".CreateModel.MyDayToDoActivity"
+                android:theme="@style/AppTheme">
         </activity>
-        <activity android:name=".DeleteModel.HomeBillsDeleteToDoActivity"
-                  android:theme="@style/Theme1">
+        <activity
+                android:name=".DeleteModel.MyDayDeleteToDoActivity"
+                android:theme="@style/AppTheme">
         </activity>
-        <activity android:name=".CreateModel.WorkStudyToDoActivity"
-                  android:theme="@style/Theme2">
+        <activity
+                android:name=".CreateModel.MyWeekendToDoActivity"
+                android:theme="@style/AppTheme">
         </activity>
-        <activity android:name=".DeleteModel.WorkStudyDeleteToDoActivity"
-                  android:theme="@style/Theme2">
+        <activity
+                android:name=".DeleteModel.MyWeekendDeleteToDoActivity"
+                android:theme="@style/AppTheme">
         </activity>
-        <activity android:name=".CreateModel.GroceriesToDoActivity"
-                  android:theme="@style/Theme3">
+        <activity
+                android:name=".CreateModel.HomeBillsToDoActivity"
+                android:theme="@style/Theme1">
         </activity>
-        <activity android:name=".DeleteModel.GroceriesDeleteToDoActivity"
-                  android:theme="@style/Theme3">
+        <activity
+                android:name=".DeleteModel.HomeBillsDeleteToDoActivity"
+                android:theme="@style/Theme1">
         </activity>
-        <activity android:name=".CreateModel.InterestsTravelToDoActivity"
-                  android:theme="@style/Theme4">
+        <activity
+                android:name=".CreateModel.WorkStudyToDoActivity"
+                android:theme="@style/Theme2">
         </activity>
-        <activity android:name=".DeleteModel.InterestsTravelDeleteToDoActivity"
-                  android:theme="@style/Theme4">
+        <activity
+                android:name=".DeleteModel.WorkStudyDeleteToDoActivity"
+                android:theme="@style/Theme2">
         </activity>
-        <activity android:name=".CreateModel.FriendsFamilyToDoActivity"
-                  android:theme="@style/Theme5">
+        <activity
+                android:name=".CreateModel.GroceriesToDoActivity"
+                android:theme="@style/Theme3">
         </activity>
-        <activity android:name=".DeleteModel.FriendsFamilyDeleteToDoActivity"
-                  android:theme="@style/Theme5">
+        <activity
+                android:name=".DeleteModel.GroceriesDeleteToDoActivity"
+                android:theme="@style/Theme3">
         </activity>
-        <activity android:name=".CreateModel.OtherToDoActivity"
-                  android:theme="@style/Theme6">
+        <activity
+                android:name=".CreateModel.InterestsTravelToDoActivity"
+                android:theme="@style/Theme4">
         </activity>
-        <activity android:name=".DeleteModel.OtherDeleteToDoActivity"
-                  android:theme="@style/Theme6">
+        <activity
+                android:name=".DeleteModel.InterestsTravelDeleteToDoActivity"
+                android:theme="@style/Theme4">
+        </activity>
+        <activity
+                android:name=".CreateModel.FriendsFamilyToDoActivity"
+                android:theme="@style/Theme5">
+        </activity>
+        <activity
+                android:name=".DeleteModel.FriendsFamilyDeleteToDoActivity"
+                android:theme="@style/Theme5">
+        </activity>
+        <activity
+                android:name=".CreateModel.OtherToDoActivity"
+                android:theme="@style/Theme6">
+        </activity>
+        <activity
+                android:name=".DeleteModel.OtherDeleteToDoActivity"
+                android:theme="@style/Theme6">
+        </activity>
+        <activity
+                android:name=".CreateModel.MyWallToDoActivity"
+                android:theme="@style/AppTheme">
+        </activity>
+        <activity
+                android:name=".DeleteModel.MyWallDeleteToDoActivity"
+                android:theme="@style/AppTheme">
+        </activity>
+        <activity
+                android:name=".CreateModel.CleanSheetToDoActivity"
+                android:theme="@style/AppTheme">
+        </activity>
+        <activity
+                android:name=".DeleteModel.CleanSheetDeleteToDoActivity"
+                android:theme="@style/AppTheme">
         </activity>
 
         <activity
@@ -85,6 +128,26 @@
         <activity
                 android:name=".TodoModel.OtherActivity"
                 android:label="@string/title_activity_other"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".TodoModel.MyDayActivity"
+                android:label="@string/title_activity_my_day"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".TodoModel.MyWeekendActivity"
+                android:label="@string/title_activity_my_weekend"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".TodoModel.MyWallActivity"
+                android:label="@string/title_activity_my_wall"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".TodoModel.CleanSheetActivity"
+                android:label="@string/title_activity_clean_sheet"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>

@@ -20,9 +20,9 @@ class HomeBillsToDoActivity : AppCompatActivity() {
                 title = titleEditText.text.toString()
             }
             var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS1), setOf()).toMutableSet()
+            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS3), setOf()).toMutableSet()
             todos.add(title)
-            prefs.edit().putStringSet("todostrings1", todos).apply()
+            prefs.edit().putStringSet("todostrings3", todos).apply()
 
             finish()
         }

@@ -18,11 +18,11 @@ class HomeBillsDeleteToDoActivity : AppCompatActivity() {
         completeButton.setOnClickListener {
 
             var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS1), setOf()).toMutableSet()
+            var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS3), setOf()).toMutableSet()
 
             todos.remove(todo)
 
-            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS1), todos).apply()
+            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS3), todos).apply()
 
             finish()
         }

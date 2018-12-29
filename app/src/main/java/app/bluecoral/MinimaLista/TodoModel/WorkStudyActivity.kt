@@ -36,7 +36,7 @@ class WorkStudyActivity : AppCompatActivity() {
     }
     fun updateRecycler() {
         var prefs = getSharedPreferences(getString(R.string.SHARED_PREF_NAME), Context.MODE_PRIVATE)
-        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS2), setOf()).toMutableSet()
+        var todos = prefs.getStringSet(getString(R.string.TODO_STRINGS4), setOf()).toMutableSet()
         println(todos)
 
         layoutManager = LinearLayoutManager(this)
@@ -55,7 +55,7 @@ class WorkStudyActivity : AppCompatActivity() {
             var prefs = getSharedPreferences(getString(
                 R.string.SHARED_PREF_NAME
             ), Context.MODE_PRIVATE)
-            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS2), null).apply()
+            prefs.edit().putStringSet(getString(R.string.TODO_STRINGS4), null).apply()
             updateRecycler()
 
             return true

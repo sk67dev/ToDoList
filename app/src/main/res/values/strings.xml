@@ -9,13 +9,22 @@
     <string name="TODO_STRINGS4">todostrings4</string>
     <string name="TODO_STRINGS5">todostrings5</string>
     <string name="TODO_STRINGS6">todostrings6</string>
+    <string name="TODO_STRINGS7">todostrings7</string>
+    <string name="TODO_STRINGS8">todostrings8</string>
+    <string name="TODO_STRINGS9">todostrings9</string>
+    <string name="TODO_STRINGS10">todostrings10</string>
+
 
     <string name="action_delete_all">Delete All</string>
 
+    <string name="title_activity_my_day">My Day</string>
+    <string name="title_activity_my_weekend">My Weekend</string>
     <string name="title_activity_home">Home/Bills</string>
     <string name="title_activity_work_study">Work/Study</string>
     <string name="title_activity_shopping">Groceries</string>
     <string name="title_activity_interests_travel">Interests/Travel</string>
     <string name="title_activity_friends_family">Friends/Family</string>
     <string name="title_activity_other">Other</string>
+    <string name="title_activity_my_wall">My Wall</string>
+    <string name="title_activity_clean_sheet">Clean Sheet</string>
 </resources>
