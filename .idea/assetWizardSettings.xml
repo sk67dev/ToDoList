@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="63" />
+                                                <entry key="scalingPercent" value="54" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -34,7 +34,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="0aca3d" />
+                                      <entry key="backgroundColor" value="a5e2e0" />
                                       <entry key="foregroundImage" value="$USER_HOME$/Documents/MinimaLista/icon_img1.png" />
                                       <entry key="outputName" value="icon_1" />
                                     </map>
