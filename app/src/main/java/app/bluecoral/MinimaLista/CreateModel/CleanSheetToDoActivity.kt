@@ -10,8 +10,7 @@ class CleanSheetToDoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_create_clean_sheet_todo
-        )
+        setContentView(R.layout.activity_create_clean_sheet_todo)
 
         saveButton.setOnClickListener {
             var title = ""

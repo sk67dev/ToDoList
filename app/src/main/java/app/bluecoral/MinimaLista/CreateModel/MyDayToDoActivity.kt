@@ -10,9 +10,7 @@ class MyDayToDoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(
-            R.layout.activity_create_my_day_todo
-        )
+        setContentView(R.layout.activity_create_my_day_todo)
 
         saveButton.setOnClickListener {
             var title = ""

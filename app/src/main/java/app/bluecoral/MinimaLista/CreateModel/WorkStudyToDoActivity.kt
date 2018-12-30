@@ -4,18 +4,16 @@ import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import app.bluecoral.MinimaLista.R
-import kotlinx.android.synthetic.main.activity_create_home_bills_todo.*
 import kotlinx.android.synthetic.main.activity_create_work_study_todo.*
 
 class WorkStudyToDoActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_work_study_todo)
 
         saveButton.setOnClickListener {
             var title = ""
-            if (importantCheckBox1.isChecked) {
+            if (importantCheckBox.isChecked) {
                 title = "❗️️️️ " + titleEditText.text.toString()
             } else {
                 title = titleEditText.text.toString()
@@ -29,3 +27,4 @@ class WorkStudyToDoActivity : AppCompatActivity() {
         }
     }
 }
+

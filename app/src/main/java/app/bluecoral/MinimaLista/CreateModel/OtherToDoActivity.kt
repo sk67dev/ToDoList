@@ -10,9 +10,7 @@ class OtherToDoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(
-            R.layout.activity_create_other_todo
-        )
+        setContentView(R.layout.activity_create_other_todo)
 
         saveButton.setOnClickListener {
             var title = ""

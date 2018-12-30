@@ -10,9 +10,7 @@ class MyWallToDoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(
-            R.layout.activity_create_my_wall_todo
-        )
+        setContentView(R.layout.activity_create_my_wall_todo)
 
         saveButton.setOnClickListener {
             var title = ""

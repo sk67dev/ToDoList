@@ -24,8 +24,6 @@
                 android:background="@android:color/white">
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 android:layout_height="210dp"
                 app:cardElevation="20dp"
@@ -63,8 +61,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 android:layout_height="210dp"
                 app:cardElevation="20dp"
@@ -102,8 +98,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 app:cardElevation="20dp"
                 android:layout_marginLeft="15dp"
@@ -141,8 +135,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 android:layout_height="210dp"
                 app:cardElevation="20dp"
@@ -180,8 +172,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 android:layout_height="210dp"
                 app:cardElevation="20dp"
@@ -219,8 +209,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 android:layout_height="210dp"
                 app:cardElevation="20dp"
@@ -258,8 +246,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 android:layout_height="210dp"
                 app:cardElevation="20dp"
@@ -297,8 +283,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 android:layout_height="210dp"
                 app:cardElevation="20dp"
@@ -336,8 +320,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 android:layout_height="210dp"
                 app:cardElevation="20dp"
@@ -375,8 +357,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="0dp"
                 android:layout_height="210dp"
                 app:cardElevation="20dp"

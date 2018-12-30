@@ -11,7 +11,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/titleEditText2"
+            android:id="@+id/titleEditText"
             android:hint="Title"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="16dp"
@@ -24,19 +24,19 @@
             android:text="Important"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="@+id/titleEditText2"
-            android:id="@+id/importantCheckBox2"
+            app:layout_constraintStart_toStartOf="@+id/titleEditText"
+            android:id="@+id/importantCheckBox"
             android:textSize="24sp"
             android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/titleEditText2"/>
+            app:layout_constraintTop_toBottomOf="@+id/titleEditText"/>
     <Button
             android:text="Save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="@+id/importantCheckBox2"
-            android:id="@+id/saveButton2"
+            app:layout_constraintStart_toStartOf="@+id/importantCheckBox"
+            android:id="@+id/saveButton"
             android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/importantCheckBox2"
+            app:layout_constraintTop_toBottomOf="@+id/importantCheckBox"
             android:background="@color/colorAccent3"
             android:textColorLink="@color/colorAccent3"/>
 </android.support.constraint.ConstraintLayout>

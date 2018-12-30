@@ -10,9 +10,7 @@ class MyWeekendToDoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(
-            R.layout.activity_create_my_weekend_todo
-        )
+        setContentView(R.layout.activity_create_my_weekend_todo)
 
         saveButton.setOnClickListener {
             var title = ""
