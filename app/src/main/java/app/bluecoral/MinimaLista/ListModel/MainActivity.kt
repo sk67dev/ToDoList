@@ -3,8 +3,8 @@ package app.bluecoral.MinimaLista.ListModel
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ImageView
 import app.bluecoral.MinimaLista.R
+import app.bluecoral.MinimaLista.R.id.toolbar
 import app.bluecoral.MinimaLista.TodoModel.*
 import kotlinx.android.synthetic.main.activity_main_list.*
 

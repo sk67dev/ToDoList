@@ -9,6 +9,9 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="MainTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.AppBarOverlay.MenuWhite">
+        <item name="actionMenuTextColor">@color/colorWhite</item>
+    </style>
     <style name="MainTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
 
