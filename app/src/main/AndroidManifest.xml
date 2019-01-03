@@ -112,7 +112,7 @@
         </activity>
         <activity
                 android:name=".TodoModel.GroceriesActivity"
-                android:label="@string/title_activity_shopping"
+                android:label="@string/title_activity_groceries"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity

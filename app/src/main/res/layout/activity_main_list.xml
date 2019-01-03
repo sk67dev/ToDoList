@@ -180,7 +180,7 @@
                 android:layout_marginTop="15dp"
                 app:contentPadding="5dp"
                 android:id="@+id/card5"
-                android:background="@drawable/shopping"
+                android:background="@drawable/groceries"
                 android:layout_marginBottom="5dp"
                 android:layout_columnWeight="1">
             <LinearLayout
@@ -191,7 +191,7 @@
                     android:layout_margin="2dp">
                 <ImageView
                         android:layout_height="140dp"
-                        android:src="@drawable/shopping"
+                        android:src="@drawable/groceries"
                         android:layout_width="match_parent"
                         tools:adjustViewBounds="true"
                         android:scaleType="fitXY"/>

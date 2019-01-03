@@ -10,7 +10,6 @@ import android.view.MenuItem
 import app.bluecoral.MinimaLista.Adapter.GroceriesAdapter
 import app.bluecoral.MinimaLista.CreateModel.GroceriesToDoActivity
 import app.bluecoral.MinimaLista.R
-
 import kotlinx.android.synthetic.main.activity_groceries_todo.*
 import kotlinx.android.synthetic.main.content_home_bills.*
 

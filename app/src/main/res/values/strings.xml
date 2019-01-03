@@ -21,7 +21,7 @@
     <string name="title_activity_my_weekend">My Weekend</string>
     <string name="title_activity_home">Home/Bills</string>
     <string name="title_activity_work_study">Work/Study</string>
-    <string name="title_activity_shopping">Groceries</string>
+    <string name="title_activity_groceries">Groceries</string>
     <string name="title_activity_interests_travel">Interests/Travel</string>
     <string name="title_activity_friends_family">Friends/Family</string>
     <string name="title_activity_other">Other</string>
